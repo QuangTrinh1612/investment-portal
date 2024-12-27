@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.models import Ticker, StockPrice, Base
+from backend.app.models import Ticker, StockPrice, Base
 
 def configure_database():
     # Create a DuckDB engine

@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.models import Ticker, StockPrice
+from backend.app.models import Ticker, StockPrice
 
 # Create a session
 engine = create_engine('duckdb:///InvestmentDB.db')
